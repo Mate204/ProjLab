@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 605.60004
+    y: 550.4
     width: 1536
     height: 164.39996
   m_SerializedDataModeController:
@@ -337,8 +337,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1253.6
-    y: 79.200005
+    x: 1254.6
+    y: 24
     width: 281.40002
     height: 500.40002
   m_SerializedDataModeController:
@@ -386,8 +386,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1040.8
-    y: 79.200005
+    x: 1041.8
+    y: 24
     width: 210.79993
     height: 500.40002
   m_SerializedDataModeController:
@@ -431,7 +431,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16ce0000
     m_LastClickedID: 52758
-    m_ExpandedIDs: 00000000a0b60000a2b60000a4b60000a6b60000
+    m_ExpandedIDs: 00000000eab50000ecb50000eeb50000f0b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,21 +460,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000a0b60000a2b60000a4b60000a6b60000
+    m_ExpandedIDs: 00000000eab50000ecb50000eeb50000f0b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameManager
-      m_OriginalName: GameManager
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 47810
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -623,8 +623,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 220
-    y: 79.200005
+    x: 221
+    y: 24
     width: 818.80005
     height: 500.40002
   m_SerializedDataModeController:
@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 219
     height: 500.40002
   m_SerializedDataModeController:
