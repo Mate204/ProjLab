@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,8 +35,7 @@ public class Card : MonoBehaviour
 
     public void Show()
     {
-        iconImage.sprite = iconSprite;
-        isSelected = true;
+        StartCoroutine(DelayedShow());
     }
 
     public void Hide()
@@ -50,6 +50,13 @@ public class Card : MonoBehaviour
         {
             AudioSource.Play();
         }
+    }
+
+    private IEnumerator DelayedShow()
+    {
+        yield return new WaitForSeconds(0.1f);
+        iconImage.sprite = iconSprite;
+        isSelected = true;
     }
 
 }

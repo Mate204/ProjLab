@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\CardsController.cs" />
+    <Compile Include="Assets\Scripts\AnimationOnCLickThirdGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

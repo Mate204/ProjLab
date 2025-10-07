@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,25 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AnimationOnCLickThirdGame.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:27:26.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CardsController.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\CardsController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardsController.cs",
               "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\CardsController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CardsController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAkwIIAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:50:01.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
               "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:50:01.024Z",
               "EditorCaption": ""
