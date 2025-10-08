@@ -9,13 +9,13 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private InputReader _input;
     [SerializeField] private Camera _camera;
-    [SerializeField] private Tilemap _tilemap;
-    [SerializeField] private RumbleManager _rumbleManager;
     private Vector3 _lookDir;
     [SerializeField]
     private AudioClip _lookClip, _lookCollideClip, _lookInvestigatableClip, _moveClip, _interactClip, _interactFailClip, _fallbackInspectNarratorClip;
+    [SerializeField] private Vector2 _movementScale = Vector2.one;
     [SerializeField] private LayerMask _raycastMask = int.MaxValue;
     [SerializeField] private float _raycastLength = 0.5f;
+    [SerializeField] private SecondGameState _gameState;
 
     private void Awake()
     {
@@ -39,46 +39,48 @@ public class PlayerController : MonoBehaviour
         bool hit = !TryGetTile(out var target);
         if (hit)
         {
-            AudioSource.PlayClipAtPoint(_lookCollideClip, _camera.transform.position);
+            //AudioSource.PlayClipAtPoint(_lookCollideClip, _camera.transform.position);
             return;
         }
 
-        if (target.TryGetComponent<Interactable>(out _))
-            AudioSource.PlayClipAtPoint(_lookInvestigatableClip, _camera.transform.position);
-        else
-            AudioSource.PlayClipAtPoint(_lookClip, _camera.transform.position);
+        if (target.TryGetComponent<Interactable>(out _)) { }
+            //AudioSource.PlayClipAtPoint(_lookInvestigatableClip, _camera.transform.position);
+        else { }
+            //AudioSource.PlayClipAtPoint(_lookClip, _camera.transform.position);
     }
     private void Interact()
     {
         if (!TryGetTile(out var target))
         {
             Vector3 moveDir = _lookDir;
-            moveDir.x *= _tilemap.cellSize.x;
-            moveDir.y *= _tilemap.cellSize.z;
+            moveDir.x *= _movementScale.x;
+            moveDir.y *= _movementScale.y;
 
             transform.position += moveDir;
-            AudioSource.PlayClipAtPoint(_moveClip, _camera.transform.position);
+            //AudioSource.PlayClipAtPoint(_moveClip, _camera.transform.position);
         }
         else
         {
             if (target.TryGetComponent<Interactable>(out var interact))
             {
-                AudioSource.PlayClipAtPoint(_interactClip, _camera.transform.position);
+                //AudioSource.PlayClipAtPoint(_interactClip, _camera.transform.position);
                 interact.Interact(gameObject);
             }
-            else
-                AudioSource.PlayClipAtPoint(_interactFailClip, _camera.transform.position);
+            else { }
+                //AudioSource.PlayClipAtPoint(_interactFailClip, _camera.transform.position);
         }
+
+        _gameState.StepTurn();
     }
     private void Inspect()
     {
         if (!TryGetTile(out var target))
             return;
 
-        if (target.TryGetComponent<Interactable>(out var interact))
-            AudioSource.PlayClipAtPoint(interact.NarratorClip, _camera.transform.position);
-        else
-            AudioSource.PlayClipAtPoint(_fallbackInspectNarratorClip, _camera.transform.position);
+        if (target.TryGetComponent<Interactable>(out var interact)) { }
+            //AudioSource.PlayClipAtPoint(interact.NarratorClip, _camera.transform.position);
+        else { }
+            //AudioSource.PlayClipAtPoint(_fallbackInspectNarratorClip, _camera.transform.position);
     }
     private bool TryGetTile(out Transform hitObject)
     {

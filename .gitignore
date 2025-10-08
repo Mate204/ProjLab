@@ -17,18 +17,12 @@
 *.pdf
 *.mid
 *.midi
-*.wav
 *.gif
 *.ico
-*.jpg
-*.jpeg
-*.png
 *.psd
 *.tga
 *.tif
 *.tiff
-*.mp3
-*.mp4
 *.avi
 *.mov
 *.asf
@@ -37,3 +31,21 @@
 *.webm
 *.mkv
 *.unitypackage
+*.vsidx
+
+My project/Assets/Sounds/SecondGame/Player/move.wav.meta
+My project/Assets/Sounds/SecondGame/Player/look.wav.meta
+My project/Assets/Sounds/SecondGame/Player/interact.wav.meta
+My project/Assets/Sounds/SecondGame/Player/collision.wav.meta
+My project/Assets/Sounds/SecondGame/Player/alert_3.wav.meta
+My project/Assets/Sounds/SecondGame/Player/alert_2.wav.meta
+My project/Assets/Sounds/SecondGame/Player/alert.wav.meta
+My project/Assets/Sounds/SecondGame/monster_1.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/wall.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/unknown.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/key.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/door.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/desk.wav.meta
+My project/Assets/Sounds/SecondGame/Interactables/bed.wav.meta
+My project/Assets/Sounds/SecondGame/game_over.wav.meta
+My project/Assets/Sounds/SecondGame/erik-satie-gnossienne-no_7.wav.meta
