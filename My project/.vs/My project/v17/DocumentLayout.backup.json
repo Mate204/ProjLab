@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\third game\\cardkeyboardselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\third game\\cardkeyboardselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\third game\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\third game\\animationonclickthirdgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\third game\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\third game\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\third game\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\third game\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,40 +47,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnimationOnCLickThirdGame.cs",
-              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
-              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimationOnCLickThirdGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Title": "CardKeyboardSelector.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T15:27:26.883Z",
+              "WhenOpened": "2025-10-08T21:20:56.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CardsController.cs",
-              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\CardsController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CardsController.cs",
-              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\CardsController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CardsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAxAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardsController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\CardsController.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardsController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Third Game\\CardsController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAowKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:50:01.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T21:11:47.752Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
-              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Card.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwA0AAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\Card.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\Card.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\Card.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Third Game\\Card.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:50:01.024Z",
+              "WhenOpened": "2025-10-08T21:11:45.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimationOnCLickThirdGame.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\AnimationOnCLickThirdGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\AnimationOnCLickThirdGame.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\AnimationOnCLickThirdGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Third Game\\AnimationOnCLickThirdGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:11:44.335Z",
               "EditorCaption": ""
             }
           ]

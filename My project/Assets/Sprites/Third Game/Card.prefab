@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -3600387792783777499}
   - component: {fileID: 99609857739469369}
   - component: {fileID: 4467029353302871218}
+  - component: {fileID: 8752316328796151293}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -95,11 +96,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   iconImage: {fileID: 2277422928643035426}
   AudioSource: {fileID: 99609857739469369}
+  outline: {fileID: 8752316328796151293}
   hiddeniconSprite: {fileID: -4457850898058260020, guid: 068f2f1a46784e74f84316823eca086a, type: 3}
   iconSprite: {fileID: 0}
   cardSound: {fileID: 0}
   isSelected: 0
   controller: {fileID: 0}
+  found: 0
 --- !u!114 &-2793808309323900268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +302,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8752316328796151293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606453773542951784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7855163763614685488
 GameObject:
   m_ObjectHideFlags: 0

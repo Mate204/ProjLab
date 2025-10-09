@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class CardsController : MonoBehaviour
 {
+    public List<Card> allCards = new List<Card>();
+
     [SerializeField] Card cardPrefab;
     [SerializeField] Transform gridTransform;
     [SerializeField] Sprite[] sprites;
@@ -94,6 +96,7 @@ public class CardsController : MonoBehaviour
             card.Hide();
             Debug.Log($"Card {i + 1} created with sprite: {spritePairs[i].name}");
             card.controller = this;
+            allCards.Add(card);
         }
     }
 
@@ -125,6 +128,8 @@ public class CardsController : MonoBehaviour
         if (a.cardSound == b.cardSound)
         {
             //Matched
+            a.found = true;
+            b.found = true;
             matchCounts++;
             if (matchCounts>=soundPairs.Count/2)
             {
@@ -137,6 +142,7 @@ public class CardsController : MonoBehaviour
         else
         {
             //flip them back
+            yield return new WaitForSeconds(1);
             a.Hide();
             b.Hide();
             Debug.Log("Cards did not match.");
