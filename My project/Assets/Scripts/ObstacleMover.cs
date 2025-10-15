@@ -3,7 +3,7 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public float speed = 5f;
-    public float destroyPositionX = -10f;
+    public float destroyPositionX = -30f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
