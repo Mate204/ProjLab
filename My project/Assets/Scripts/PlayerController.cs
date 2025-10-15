@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Player_Controller : MonoBehaviour
 {
     private readonly float[] linePositionsY = { -1f, -4.5f, -7.5f };
     private int currentLineIndex = 1; // Start in the middle line
