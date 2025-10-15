@@ -13,14 +13,20 @@ public class GameManager : MonoBehaviour
     private float elapsedTime;
     void Awake()
     {
+        
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            
         }
         else
         {
-            Destroy(gameObject);
+            if (Instance != this) 
+            {
+                Destroy(gameObject);
+                return;
+            }
+               
         }
 
         gameStartTime = Time.time;

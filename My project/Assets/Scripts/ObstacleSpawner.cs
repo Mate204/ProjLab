@@ -3,7 +3,7 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     public GameObject obstaclePrefab;
-    private readonly float[] linePositionsY = { 1.5f, 0.0f, -1.5f };
+    private readonly float[] linePositionsY = { -1f, -4.5f, -7.5f };
     public float spawnPositionX = 10f;
     public float timeBetweenSpawns = 2f;
     private float timeSinceLastSpawn = 0.0f;

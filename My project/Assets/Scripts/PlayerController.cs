@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private readonly float[] linePositionsY = { 1.5f, 0.0f, -1.5f };
+    private readonly float[] linePositionsY = { -1f, -4.5f, -7.5f };
     private int currentLineIndex = 1; // Start in the middle line
     private float laneChangeSpeed = 10f;
     private Vector3 targetPosition;
@@ -38,7 +38,8 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Collided with obstacle!");
             GameManager.Instance.GameOver();
-            
+            //gameObject.SetActive(false);
+
         }
     }
 }
