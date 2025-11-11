@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\",
+  "WorkspaceRootPath": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ObstacleMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\third game\\cardkeyboardselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\third game\\cardkeyboardselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\ObstacleMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\ObstacleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +42,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T09:58:26.09Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ObstacleMover.cs",
-              "DocumentMoniker": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleMover.cs",
-              "ToolTip": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObstacleMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "PlayerControllerFourthGame.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T09:41:18.726Z",
+              "WhenOpened": "2025-11-10T10:21:34.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-10T10:07:57.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Sprite-Lit-Default.shader",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-10T09:55:05.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardKeyboardSelector.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:51:52.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T09:58:26.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObstacleMover.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleMover.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T09:41:18.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ObstacleSpawner.cs",
-              "DocumentMoniker": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
-              "ToolTip": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,11 +149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Dockumentumok\\ProjLab\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
