@@ -69,13 +69,16 @@
     <Compile Include="Assets\Scripts\SecondGame\RumbleManager.cs" />
     <Compile Include="Assets\Scripts\Fourth Game\PlayerControllerFourthGame.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\Door.cs" />
+    <Compile Include="Assets\Scripts\Fourth Game\PlayerTeleportControl.cs" />
     <Compile Include="Assets\Scripts\Third Game\CardKeyboardSelector.cs" />
     <Compile Include="Assets\Scripts\ObstacleMover.cs" />
     <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
     <Compile Include="Assets\Scripts\SecondGame\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Fourth Game\TeleportFourthGame.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\InputReader.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\Interactable.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Enemies\EnemyFather.cs" />
+    <Compile Include="Assets\Scripts\Fourth Game\MovingBackgroundWBCK7D.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\HidingPlace.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Etc\InputSystem_Actions.cs" />
