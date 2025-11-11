@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Third Game\AnimationOnCLickThirdGame.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Fourth Game\RainbowCubeCollector.cs" />
     <Compile Include="Assets\Scripts\Third Game\CardsController.cs" />
     <Compile Include="Assets\Scripts\Third Game\Card.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\SecondGame\SecondGameState.cs" />
