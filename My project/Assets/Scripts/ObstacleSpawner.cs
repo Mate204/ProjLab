@@ -1,8 +1,12 @@
 using UnityEngine;
-
 public class ObstacleSpawner : MonoBehaviour
 {
+    public static ObstacleSpawner Instance;
     public GameObject obstaclePrefab;
+    public GameObject obstaclePrefab2;
+    public GameObject obstaclePrefab3;
+    public GameObject obstaclePrefab4;
+
     private readonly float[] linePositionsY = { -1f, -4.5f, -7.5f };
     public float spawnPositionX = 10f;
     public float timeBetweenSpawns = 2f;
@@ -11,29 +15,63 @@ public class ObstacleSpawner : MonoBehaviour
     void Start()
     {
         SpawnObstacle();
-        timeSinceLastSpawn = 0f;
+
+        //timeSinceLastSpawn = 0f;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        timeSinceLastSpawn += Time.deltaTime;
 
-        if (timeSinceLastSpawn >= timeBetweenSpawns)
+
+    void Awake()
+    {
+        if (Instance == null)
         {
-            SpawnObstacle();
-            timeSinceLastSpawn = 0f;
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
-    void SpawnObstacle()
+    // Update is called once per frame
+    
+    public void SpawnObstacle()
     {
-        int randomIndex = Random.Range(0, linePositionsY.Length);
-        float spawnPositionY = linePositionsY[randomIndex];
+        float spawnPositionY;
+        GameObject choosenPrfab = obstaclePrefab;
+        int whichPrefab = Random.Range(0, 5);
+        if (whichPrefab == 1)
+        {
+            choosenPrfab = obstaclePrefab2;
+            spawnPositionY = linePositionsY[0];
+        }
+        else if (whichPrefab == 2)
+        {
+            choosenPrfab = obstaclePrefab3;
+            spawnPositionY = linePositionsY[0];
+        }
+        else if (whichPrefab == 3)
+        {
+            choosenPrfab = obstaclePrefab4;
+            spawnPositionY = linePositionsY[0];
+        }
+        else
+        {
+            int randomIndex = Random.Range(0, linePositionsY.Length);
+            spawnPositionY = linePositionsY[randomIndex];
+        }
 
         Vector3 spawnPosition = new Vector3(spawnPositionX, spawnPositionY, 0);
-        Instantiate(obstaclePrefab, spawnPosition, Quaternion.identity);
+
+        Instantiate(choosenPrfab, spawnPosition, Quaternion.identity);
+
     }
 
 
-    
+
+
+
+
+
+
+
 }

@@ -41,5 +41,13 @@ public class Player_Controller : MonoBehaviour
             //gameObject.SetActive(false);
 
         }
+        if (other.gameObject.CompareTag("Safe"))
+        {
+           ObstacleSpawner.Instance.SpawnObstacle();
+           Destroy(other.gameObject);
+
+
+        }
+
     }
 }

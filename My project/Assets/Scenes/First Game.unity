@@ -1352,7 +1352,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.94, y: 1.06}
-    newSize: {x: 0.16, y: 0.16}
+    newSize: {x: 1.94, y: 1.06}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1423,7 +1423,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 1.94, y: 1.06}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1743,7 +1743,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefab: {fileID: 4660109857923791118, guid: 410443f1cd67da14395b3a3b05119ef5, type: 3}
-  spawnPositionX: 10
+  obstaclePrefab2: {fileID: 4524309164363401853, guid: 91f2ad3630ee30141a0b548cc468ddb3, type: 3}
+  obstaclePrefab3: {fileID: 4524309164363401853, guid: 6e59a6225fdb81c478fc2a552728abbd, type: 3}
+  obstaclePrefab4: {fileID: 4524309164363401853, guid: 551be6fbf35410143be3331f24a2e004, type: 3}
+  spawnPositionX: 15
   timeBetweenSpawns: 2
 --- !u!4 &1591015480
 Transform:
