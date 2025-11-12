@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\fourth game\\movingbackgroundwbck7d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\fourth game\\rainbowcubecollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fourth game\\rainbowcubecollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\fourth game\\movingbackgroundwbck7d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fourth game\\movingbackgroundwbck7d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\kardo\\desktop\\projekt labor\\projlab\\my project\\assets\\scripts\\fourth game\\playerteleportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\assets\\scripts\\fourth game\\playerteleportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fourth game\\playerteleportcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RainbowCubeCollector.cs",
+              "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\RainbowCubeCollector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\RainbowCubeCollector.cs",
+              "ToolTip": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\RainbowCubeCollector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fourth Game\\RainbowCubeCollector.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:25:02.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerTeleportControl.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\PlayerTeleportControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\PlayerTeleportControl.cs",
@@ -82,12 +99,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Fourth Game\\PlayerTeleportControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:33:47.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:33:47.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TeleportFourthGame.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\TeleportFourthGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\TeleportFourthGame.cs",
@@ -95,12 +111,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Fourth Game\\TeleportFourthGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:24:53.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:24:53.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MovingBackgroundWBCK7D.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\MovingBackgroundWBCK7D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\MovingBackgroundWBCK7D.cs",
@@ -113,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerControllerFourthGame.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fourth Game\\PlayerControllerFourthGame.cs",
@@ -125,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\Lit.shader",
@@ -138,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@0d0962426023\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -151,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CardKeyboardSelector.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Third Game\\CardKeyboardSelector.cs",
@@ -163,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -175,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ObstacleMover.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleMover.cs",
@@ -187,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ObstacleSpawner.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\ObstacleSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
@@ -199,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\kardo\\Desktop\\Projekt Labor\\ProjLab\\My project\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",

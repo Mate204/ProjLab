@@ -104,8 +104,11 @@ public class RainbowCubeCollector : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeLeft -= 1f;
         }
-        Destroy(gameObject);
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //Destroy(gameObject);
+        timerText.text = "Time: 0";
+        detectorAudio.Stop();
+        transform.position = new(9999f, 9999f, 9999f);
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
