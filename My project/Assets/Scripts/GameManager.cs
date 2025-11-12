@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI inGameScoreText;
+    public AudioSource audioSource;
 
 
     private float gameStartTime;
@@ -56,6 +57,8 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
  
+        audioSource.Play();
+
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);

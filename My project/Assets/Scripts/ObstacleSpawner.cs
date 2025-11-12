@@ -48,16 +48,19 @@ public class ObstacleSpawner : MonoBehaviour
         {
             choosenPrfab = obstaclePrefab3;
             spawnPositionY = linePositionsY[0];
+
         }
         else if (whichPrefab == 3)
         {
             choosenPrfab = obstaclePrefab4;
             spawnPositionY = linePositionsY[0];
+
         }
         else
         {
             int randomIndex = Random.Range(0, linePositionsY.Length);
             spawnPositionY = linePositionsY[randomIndex];
+
         }
 
         Vector3 spawnPosition = new Vector3(spawnPositionX, spawnPositionY, 0);
