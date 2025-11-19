@@ -7,6 +7,13 @@ public class ObstacleSpawner : MonoBehaviour
     public GameObject obstaclePrefab3;
     public GameObject obstaclePrefab4;
 
+    public AudioSource obs1;
+    public AudioSource obs2;
+    public AudioSource obs3;
+    public AudioSource obs4_1;
+    public AudioSource obs4_2;
+    public AudioSource obs4_3;
+
     private readonly float[] linePositionsY = { -1f, -4.5f, -7.5f };
     public float spawnPositionX = 10f;
     public float timeBetweenSpawns = 2f;
@@ -43,23 +50,37 @@ public class ObstacleSpawner : MonoBehaviour
         {
             choosenPrfab = obstaclePrefab2;
             spawnPositionY = linePositionsY[0];
+            obs1.Play();
         }
         else if (whichPrefab == 2)
         {
             choosenPrfab = obstaclePrefab3;
             spawnPositionY = linePositionsY[0];
+            obs2.Play();
 
         }
         else if (whichPrefab == 3)
         {
             choosenPrfab = obstaclePrefab4;
             spawnPositionY = linePositionsY[0];
-
+            obs3.Play();
         }
         else
         {
             int randomIndex = Random.Range(0, linePositionsY.Length);
             spawnPositionY = linePositionsY[randomIndex];
+            if (randomIndex == 0) 
+            {
+               obs4_1.Play();
+            }
+            else if (randomIndex == 1)
+            {
+                obs4_2.Play();
+            }
+            else
+            {
+                obs4_3.Play();
+            }
 
         }
 
