@@ -170,20 +170,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0.95206285, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: a040ee4923179d045aba240454bc4cec, type: 3}
+  m_Texture: {fileID: 2800000, guid: 9f246a128140bce48bc25de88eb7c243, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 10
-    height: 10
+    width: 15
+    height: 15
 --- !u!222 &70366055
 CanvasRenderer:
   m_ObjectHideFlags: 0

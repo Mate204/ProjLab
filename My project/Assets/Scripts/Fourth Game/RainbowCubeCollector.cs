@@ -64,23 +64,23 @@ public class RainbowCubeCollector : MonoBehaviour
             }
             Teleport();
         }
+    }
 
-        void Teleport()
+    void Teleport()
+    {
+        Vector3 newPos;
+        float currentyY = transform.position.y;
+        Vector3 currentPos = transform.position;
+
+        do
         {
-            Vector3 newPos;
-            float currentyY = transform.position.y;
-            Vector3 currentPos = transform.position;
+            float randomX = Random.Range(minX, maxX);
+            float randomZ = Random.Range(minZ, maxZ);
 
-            do
-            {
-                float randomX = Random.Range(minX, maxX);
-                float randomZ = Random.Range(minZ, maxZ);
+            newPos = new Vector3(randomX, currentyY, randomZ);
+        } while (Vector3.Distance(newPos, currentPos) < safeRadius);
 
-                newPos = new Vector3(randomX, currentyY, randomZ);
-            } while (Vector3.Distance(newPos, currentPos) < safeRadius);
-
-            transform.position = newPos;
-        }
+        transform.position = newPos;
     }
 
     void UpdateUI()
