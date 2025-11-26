@@ -61,13 +61,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ScriptableObjects\SecondGame\SecondGameState.cs" />
+    <Compile Include="Assets\Scripts\SecondGame\Enemies\PathNode.cs" />
+    <Compile Include="Assets\Scripts\SecondGame\Enemies\Father.cs" />
+    <Compile Include="Assets\Scripts\SecondGame\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\SecondGame\RumbleManager.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\Door.cs" />
     <Compile Include="Assets\Scripts\SecondGame\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\InputReader.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\Interactable.cs" />
-    <Compile Include="Assets\Scripts\SecondGame\Enemies\EnemyFather.cs" />
+    <Compile Include="Assets\Scripts\SecondGame\GameState.cs" />
     <Compile Include="Assets\Scripts\SecondGame\Interactables\HidingPlace.cs" />
     <Compile Include="Assets\Etc\InputSystem_Actions.cs" />
   </ItemGroup>

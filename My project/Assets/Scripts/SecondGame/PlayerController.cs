@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices;
 using TMPro;
@@ -15,7 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Vector2 _movementScale = Vector2.one;
     [SerializeField] private LayerMask _raycastMask = int.MaxValue;
     [SerializeField] private float _raycastLength = 0.5f;
-    [SerializeField] private SecondGameState _gameState;
+    [SerializeField] private GameState _gameState;
 
     private void Awake()
     {
@@ -28,6 +29,10 @@ public class PlayerController : MonoBehaviour
     {
         _lookDir = transform.forward;
     }
+    private void OnDisable()
+    {
+        _rumble.SetRumble(0, 0);
+    }
 
     private void Look(Vector2 dir)
     {
@@ -39,14 +44,14 @@ public class PlayerController : MonoBehaviour
         bool hit = !TryGetTile(out var target);
         if (hit)
         {
-            //AudioSource.PlayClipAtPoint(_lookCollideClip, _camera.transform.position);
+            AudioSource.PlayClipAtPoint(_lookCollideClip, _camera.transform.position);
             return;
         }
 
-        if (target.TryGetComponent<Interactable>(out _)) { }
-            //AudioSource.PlayClipAtPoint(_lookInvestigatableClip, _camera.transform.position);
-        else { }
-            //AudioSource.PlayClipAtPoint(_lookClip, _camera.transform.position);
+        if (target.TryGetComponent<Interactable>(out _))
+            AudioSource.PlayClipAtPoint(_lookInvestigatableClip, _camera.transform.position);
+        else
+            AudioSource.PlayClipAtPoint(_lookClip, _camera.transform.position);
     }
     private void Interact()
     {
@@ -57,30 +62,30 @@ public class PlayerController : MonoBehaviour
             moveDir.y *= _movementScale.y;
 
             transform.position += moveDir;
-            //AudioSource.PlayClipAtPoint(_moveClip, _camera.transform.position);
+            AudioSource.PlayClipAtPoint(_moveClip, _camera.transform.position);
         }
         else
         {
             if (target.TryGetComponent<Interactable>(out var interact))
             {
-                //AudioSource.PlayClipAtPoint(_interactClip, _camera.transform.position);
+                AudioSource.PlayClipAtPoint(_interactClip, _camera.transform.position);
                 interact.Interact(gameObject);
             }
-            else { }
-                //AudioSource.PlayClipAtPoint(_interactFailClip, _camera.transform.position);
+            else
+                AudioSource.PlayClipAtPoint(_interactFailClip, _camera.transform.position);
         }
 
-        _gameState.StepTurn();
+        _gameState.NextTurn();
     }
     private void Inspect()
     {
         if (!TryGetTile(out var target))
             return;
 
-        if (target.TryGetComponent<Interactable>(out var interact)) { }
-            //AudioSource.PlayClipAtPoint(interact.NarratorClip, _camera.transform.position);
-        else { }
-            //AudioSource.PlayClipAtPoint(_fallbackInspectNarratorClip, _camera.transform.position);
+        if (target.TryGetComponent<Interactable>(out var interact))
+            AudioSource.PlayClipAtPoint(interact.NarratorClip, _camera.transform.position);
+        else
+            AudioSource.PlayClipAtPoint(_fallbackInspectNarratorClip, _camera.transform.position);
     }
     private bool TryGetTile(out Transform hitObject)
     {
@@ -95,5 +100,43 @@ public class PlayerController : MonoBehaviour
         return r;
     }
 
+    public float alertLevel = float.MaxValue;
+    public Vector2 alertDir = Vector2.zero;
+    [SerializeField] private RumbleManager _rumble;
+    [SerializeField] private AudioSource _alertSource;
+    [SerializeField] private AudioClip _alertHigh, _alertMed, _alertLow;
+    [SerializeField] private float _alertHighDist, _alertMedDist, _alertLowDist;
+    [SerializeField] private float _rumbleStrengthHigh = 10, _rumbleStrengthMed = 5, _rumbleStrengthLow = 2;
+    public void FixedUpdate()
+    {
+        if (alertLevel > _alertLowDist)
+        {
+            _rumble.SetRumble(0, 0);
+            _alertSource.mute = true;
+            return;
+        }
+        _alertSource.mute = false;
+        if (!_alertSource.isPlaying)
+        {
+            _alertSource.Play();
+        }
 
+        if (alertLevel > _alertMedDist)
+        {
+            _alertSource.clip = _alertLow;
+            _rumble.SetRumble(_rumbleStrengthLow, _rumbleStrengthLow);
+        }
+        else
+        if (alertLevel > _alertHighDist)
+        {
+            _alertSource.clip = _alertMed;
+            _rumble.SetRumble(_rumbleStrengthMed, _rumbleStrengthMed);
+        }
+        else
+        {
+            _alertSource.clip = _alertHigh;
+            _rumble.SetRumble(_rumbleStrengthHigh, _rumbleStrengthHigh);
+        }
+        _alertSource.transform.localPosition = alertDir;
+    }
 }
