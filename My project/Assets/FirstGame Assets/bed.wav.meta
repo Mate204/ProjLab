@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:My project/Assets/FirstGame Assets/bed.wav.meta
 guid: 4685d566d72f01a42a4af96a857be104
+========
+guid: b9c0d80de201eaa4bb1fd495251c09e8
+>>>>>>>> Stashed changes:My project/Assets/Sprites/Third Game/Sound/Card_SFX_0.wav.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 8
