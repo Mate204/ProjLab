@@ -47,13 +47,13 @@ public class Enemy : MonoBehaviour {
             diffDir * _lineOfSightDistance,
             Color.aliceBlue,
             0.5f);
-        Physics.Raycast(transform.position + Vector3.up,
+        bool hitstuff=Physics.Raycast(transform.position + Vector3.up,
             diffDir,
             out var hit,
             _lineOfSightDistance,
             _lineOfSightLayer);
 
-        if (hit.transform.CompareTag("Player")) {
+        if (hitstuff && hit.transform.CompareTag("Player")) {
             _player.AlertLevel = hit.distance;
             Vector3 diff = hit.transform.position - transform.position;
             _player.AlertDir = new Vector2(diff.x, diff.z);
