@@ -2454,7 +2454,7 @@ MonoBehaviour:
   _interactClip: {fileID: 8300000, guid: 730a14af9f281504d829910af55108ef, type: 3}
   _interactFailClip: {fileID: 8300000, guid: 08b0472425cdd1046b1c509ef211a9e5, type: 3}
   _fallbackInspectNarratorClip: {fileID: 8300000, guid: d6c7ae16177fef9448de0dd99f2e089c, type: 3}
-  _movementScale: {x: 0.5, y: 0.5}
+  _movementScale: {x: 1, y: 1}
   _raycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3023,6 +3023,18 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 832508489}
+    - target: {fileID: 7340118391821067062, guid: d4d99b843ab10944a8365f689a493d9f, type: 3}
+      propertyPath: _tileSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340118391821067062, guid: d4d99b843ab10944a8365f689a493d9f, type: 3}
+      propertyPath: _tileSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340118391821067062, guid: d4d99b843ab10944a8365f689a493d9f, type: 3}
+      propertyPath: _tileSize.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

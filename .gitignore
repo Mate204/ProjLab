@@ -17,18 +17,12 @@
 *.pdf
 *.mid
 *.midi
-*.wav
 *.gif
 *.ico
-*.jpg
-*.jpeg
-*.png
 *.psd
 *.tga
 *.tif
 *.tiff
-*.mp3
-*.mp4
 *.avi
 *.mov
 *.asf
@@ -37,15 +31,10 @@
 *.webm
 *.mkv
 *.unitypackage
-My project/.vs/My project/FileContentIndex/8994c8c4-b324-4b70-a4b3-17b836dca97f.vsidx
-My project/.vs/My project/FileContentIndex/4537029f-4ab7-4ae5-9c5f-817b7b4da2ce.vsidx
-My project/.vs/My project/FileContentIndex/8994c8c4-b324-4b70-a4b3-17b836dca97f.vsidx
-My project/.vs/My project/FileContentIndex/3b9d5d80-da73-4d3f-ab19-0b43d1a45880.vsidx
-My project/.vs/My project/FileContentIndex/8994c8c4-b324-4b70-a4b3-17b836dca97f.vsidx
-My project/.vs/My project/FileContentIndex/3b9d5d80-da73-4d3f-ab19-0b43d1a45880.vsidx
 /My project/.vs/My project/FileContentIndex
 /My project/.vs/My project/FileContentIndex
 /My project/.vs/My project/CopilotIndices
 /My project/.vs/My project/CopilotIndices/17.14.1231.31060
 My project/.vs/My project/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
 My project/.vs/My project/CopilotIndices/17.14.1231.31060/SemanticSymbols.db
+*.vsidx
