@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ec015c1f9624f3149b1856d9f24f46be
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - obstaclePrefab: {fileID: 4660109857923791118, guid: 410443f1cd67da14395b3a3b05119ef5, type: 3}
+  - obstaclePrefab2: {fileID: 4524309164363401853, guid: 91f2ad3630ee30141a0b548cc468ddb3, type: 3}
+  - obstaclePrefab3: {fileID: 4524309164363401853, guid: 6e59a6225fdb81c478fc2a552728abbd, type: 3}
+  - obstaclePrefab4: {fileID: 4524309164363401853, guid: 551be6fbf35410143be3331f24a2e004, type: 3}
+  - obs1: {instanceID: 0}
+  - obs2: {instanceID: 0}
+  - obs3: {instanceID: 0}
+  - obs4_1: {instanceID: 0}
+  - obs4_2: {instanceID: 0}
+  - obs4_3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
