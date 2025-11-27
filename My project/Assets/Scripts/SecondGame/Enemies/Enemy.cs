@@ -1,61 +1,64 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
-{
-    [SerializeField] private GameState _gameState;
+public class Enemy : MonoBehaviour {
+    public GameState m_GameState;
     public PlayerController Player => _player;
     [SerializeField] private PlayerController _player;
     [SerializeField] private Vector3 _tileSize = Vector3.one;
 
-    private void OnDisable()
-    {
-        _player.alertLevel = float.MaxValue;
+    private void OnDisable() {
+        _player.AlertLevel = float.MaxValue;
     }
-    private void OnDestroy()
-    {
-        _player.alertLevel = float.MaxValue;
+    private void OnDestroy() {
+        _player.AlertLevel = float.MaxValue;
     }
 
-    public void Look(Vector2 dir)
-    {
+    public void Look(Vector2 dir) {
         Vector3 lookDirection = new(dir.x, 0, dir.y);
 
         transform.forward = lookDirection;
     }
-    public void LookAtPlayer()
-    {
+    public void StepTowardsPlayer() {
         Vector3 diff = _player.transform.position - transform.position;
 
         diff.y = 0;
         diff.Normalize();
-        Vector3 lookdir = new(
-            diff.x >= 0.5 ? 1 : 0,
-            0,
-            diff.y >= 0.5 ? 1 : 0);
-        transform.forward = lookdir;
+        Vector2 lookdir = new(
+            Mathf.Round(diff.x),
+            Mathf.Round(diff.z));
+        transform.forward = new Vector3(lookdir.x,0,lookdir.y);
+        Move(lookdir);
     }
-    public void Move(Vector2 dir)
-    {
-        Vector3 moveDir = dir;
+    public void Move(Vector2 dir) {
+        Vector3 moveDir = new Vector3(dir.x, 0, dir.y);
         moveDir.x *= _tileSize.x;
-        moveDir.y *= _tileSize.y;
+        moveDir.z *= _tileSize.y;
 
         transform.position += moveDir;
     }
 
     [SerializeField] private float _lineOfSightDistance = 50;
     [SerializeField] LayerMask _lineOfSightLayer;
-    public bool SeesPlayer()
-    {
-        Physics.Raycast(transform.position, _player.transform.position, out var hit, _lineOfSightDistance, _lineOfSightLayer);
+    public bool SeesPlayer() {
+        Vector3 diffDir = _player.transform.position-transform.position;
 
-        if (hit.transform == _player.transform)
-        {
-            _player.alertLevel = hit.distance;
+        Debug.DrawRay(transform.position + Vector3.up,
+            diffDir * _lineOfSightDistance,
+            Color.aliceBlue,
+            0.5f);
+        Physics.Raycast(transform.position + Vector3.up,
+            diffDir,
+            out var hit,
+            _lineOfSightDistance,
+            _lineOfSightLayer);
+
+        if (hit.transform.CompareTag("Player")) {
+            _player.AlertLevel = hit.distance;
             Vector3 diff = hit.transform.position - transform.position;
-            _player.alertDir = new Vector2(diff.x,diff.z);
-            return true;
+            _player.AlertDir = new Vector2(diff.x, diff.z);
+
+            return !_player.IsHiding;
         }
         return false;
     }

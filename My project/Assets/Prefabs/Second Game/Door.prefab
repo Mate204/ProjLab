@@ -139,8 +139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   _narratorClip: {fileID: 8300000, guid: bfad5c214c8d69d48a7ecdf0e237328a, type: 3}
   Open: 0
-  _openSound: {fileID: 0}
-  _closeSound: {fileID: 0}
+  _openSound: {fileID: 8300000, guid: fee6581894da1d14d9e26c177004d03d, type: 3}
+  _closeSound: {fileID: 8300000, guid: fee6581894da1d14d9e26c177004d03d, type: 3}
 --- !u!4 &4299203601020775210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6633000e6f2adf64c949916c03ee415c, type: 3}

@@ -1,26 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\",
+  "WorkspaceRootPath": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|m:\\user\\documents\\unity games\\projlab\\my project\\assets\\scripts\\secondgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\interactables\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\interactables\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\interactables\\hidingplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\interactables\\hidingplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\assets\\scripts\\secondgame\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|m:\\user\\documents\\unity games\\projlab\\my project\\assets\\scripts\\secondgame\\enemies\\father.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\enemies\\father.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\enemies\\father.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\assets\\scripts\\secondgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\assets\\scripts\\scriptableobjects\\secondgame\\secondgamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\scriptableobjects\\secondgame\\secondgamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\assets\\scripts\\secondgame\\rumblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\rumblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\mugorka\\documents\\unity games\\projekt-labor_\\my project\\assets\\scripts\\secondgame\\interactables\\dummyinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\secondgame\\interactables\\dummyinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\ScriptableObjects\\SecondGame\\SecondGameState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -46,67 +57,118 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "DummyInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\DummyInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\Interactables\\DummyInteractable.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\DummyInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SecondGame\\Interactables\\DummyInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:02:43.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\Interactables\\Door.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SecondGame\\Interactables\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:52:21.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HidingPlace.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\HidingPlace.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\Interactables\\HidingPlace.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Interactables\\HidingPlace.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SecondGame\\Interactables\\HidingPlace.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:46:48.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RumbleManager.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\RumbleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\RumbleManager.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\RumbleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SecondGame\\RumbleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T11:36:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Father.cs",
-              "DocumentMoniker": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
-              "ToolTip": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
               "RelativeToolTip": "Assets\\Scripts\\SecondGame\\Enemies\\Father.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAACAZWZmZmYWwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T01:35:22.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameState.cs",
-              "DocumentMoniker": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\GameState.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\GameState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\GameState.cs",
-              "ToolTip": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\GameState.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\GameState.cs",
               "RelativeToolTip": "Assets\\Scripts\\SecondGame\\GameState.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwEYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T00:27:36.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
-              "ToolTip": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\SecondGame\\Enemies\\Enemy.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T03:26:28.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SecondGame\\PlayerController.cs",
-              "ToolTip": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\SecondGame\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\mugorka\\Documents\\Unity Games\\Projekt-Labor_\\My project\\Assets\\Scripts\\SecondGame\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SecondGame\\PlayerController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEUAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T03:21:47.616Z"
+              "WhenOpened": "2025-10-06T03:21:47.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SecondGameState.cs",
               "DocumentMoniker": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\ScriptableObjects\\SecondGame\\SecondGameState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SecondGame\\SecondGameState.cs",
               "ToolTip": "M:\\User\\Documents\\Unity Games\\ProjLab\\My project\\Assets\\Scripts\\ScriptableObjects\\SecondGame\\SecondGameState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\SecondGame\\SecondGameState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T03:15:05.273Z"

@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
+using UnityEngine.Windows;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,8 +18,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask _raycastMask = int.MaxValue;
     [SerializeField] private float _raycastLength = 0.5f;
     [SerializeField] private GameState _gameState;
+    public bool IsHiding = false;
 
-    private void Awake()
+    private void OnEnable()
     {
         _input.InteractPerformed += Interact;
         _input.InspectPerformed += Inspect;
@@ -31,13 +33,21 @@ public class PlayerController : MonoBehaviour
     }
     private void OnDisable()
     {
+        _input.InteractPerformed -= Interact;
+        _input.InspectPerformed -= Inspect;
+        _input.Look -= Look;
         _rumble.SetRumble(0, 0);
     }
 
     private void Look(Vector2 dir)
     {
         Vector3 lookDirection = new(dir.x, 0, dir.y);
-        _lookDir = lookDirection;
+        var x = Mathf.Abs(lookDirection.x) <= .1f ? 0f : // Deadzone
+        lookDirection.x > 0 ? 1f : -1f; // Direction
+
+        var y = Mathf.Abs(lookDirection.z) <= .1f ? 0f :
+            lookDirection.z > 0 ? 1f : -1f;
+        _lookDir = new Vector3(x,0,y);
 
         transform.forward = _lookDir;
 
@@ -87,10 +97,16 @@ public class PlayerController : MonoBehaviour
         else
             AudioSource.PlayClipAtPoint(_fallbackInspectNarratorClip, _camera.transform.position);
     }
+    public Interactable Toggleable = null;
     private bool TryGetTile(out Transform hitObject)
     {
-        Vector3 up = Vector3.up * 0.5f;
-        bool r = Physics.Raycast(transform.position + up, transform.forward, out var target, _raycastLength, _raycastMask);
+        if (Toggleable != null) {
+            hitObject = Toggleable.transform;
+            return true;
+        }
+
+        Vector3 origin = transform.position+ Vector3.up * 0.5f;
+        bool r = Physics.Raycast(origin, transform.forward, out var target, _raycastLength, _raycastMask);
 
         if (r)
             hitObject = target.transform;
@@ -100,8 +116,9 @@ public class PlayerController : MonoBehaviour
         return r;
     }
 
-    public float alertLevel = float.MaxValue;
-    public Vector2 alertDir = Vector2.zero;
+    public float AlertLevel = float.MaxValue;
+    public Vector2 AlertDir = Vector2.zero;
+    [SerializeField] private float _alertSoundDistanceFromCamera = 3f;
     [SerializeField] private RumbleManager _rumble;
     [SerializeField] private AudioSource _alertSource;
     [SerializeField] private AudioClip _alertHigh, _alertMed, _alertLow;
@@ -109,7 +126,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _rumbleStrengthHigh = 10, _rumbleStrengthMed = 5, _rumbleStrengthLow = 2;
     public void FixedUpdate()
     {
-        if (alertLevel > _alertLowDist)
+        if (AlertLevel > _alertLowDist || AlertLevel==0)
         {
             _rumble.SetRumble(0, 0);
             _alertSource.mute = true;
@@ -121,13 +138,13 @@ public class PlayerController : MonoBehaviour
             _alertSource.Play();
         }
 
-        if (alertLevel > _alertMedDist)
+        if (AlertLevel > _alertMedDist)
         {
             _alertSource.clip = _alertLow;
             _rumble.SetRumble(_rumbleStrengthLow, _rumbleStrengthLow);
         }
         else
-        if (alertLevel > _alertHighDist)
+        if (AlertLevel > _alertHighDist)
         {
             _alertSource.clip = _alertMed;
             _rumble.SetRumble(_rumbleStrengthMed, _rumbleStrengthMed);
@@ -137,6 +154,6 @@ public class PlayerController : MonoBehaviour
             _alertSource.clip = _alertHigh;
             _rumble.SetRumble(_rumbleStrengthHigh, _rumbleStrengthHigh);
         }
-        _alertSource.transform.localPosition = alertDir;
+        _alertSource.transform.localPosition = AlertDir*_alertSoundDistanceFromCamera;
     }
 }

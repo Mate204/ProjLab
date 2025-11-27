@@ -62,32 +62,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8568cf5503076c42b0dcb84acee8f6c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8147540539536282170}
+      addedObject: {fileID: 4960177239618504546}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8568cf5503076c42b0dcb84acee8f6c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4960177239618504546}
+      addedObject: {fileID: 332284381730961862}
   m_SourcePrefab: {fileID: 100100000, guid: b8568cf5503076c42b0dcb84acee8f6c, type: 3}
 --- !u!1 &8895050867346454358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b8568cf5503076c42b0dcb84acee8f6c, type: 3}
   m_PrefabInstance: {fileID: 8624666459810433543}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8147540539536282170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8895050867346454358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9b8e570ee87b2144a2dd1e8d85da103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HidingPlace
-  _narratorClip: {fileID: 8300000, guid: 062014cd3c4260844856f83f347883ef, type: 3}
-  Hiding: 0
-  _hideSoundClip: {fileID: 0}
-  _unhideSoundClip: {fileID: 0}
 --- !u!65 &4960177239618504546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109,3 +93,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &332284381730961862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8895050867346454358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400ca9349c074714bb249b8931198bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DummyInteractable
+  _narratorClip: {fileID: 8300000, guid: 062014cd3c4260844856f83f347883ef, type: 3}
