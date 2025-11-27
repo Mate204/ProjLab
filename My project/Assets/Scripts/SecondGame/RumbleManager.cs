@@ -16,11 +16,11 @@ public class RumbleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(duration);
 
-        _gamepad.SetMotorSpeeds(0, 0);
+        _gamepad?.SetMotorSpeeds(0, 0);
     }
     public void SetRumble(float low, float high)
     {
         _gamepad = Gamepad.current;
-        _gamepad.SetMotorSpeeds(low, high);
+        _gamepad?.SetMotorSpeeds(low, high);
     }
 }

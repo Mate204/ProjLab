@@ -107,5 +107,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HidingPlace
   _narratorClip: {fileID: 8300000, guid: 3e764eb538a1b024892f49bc84d75b5d, type: 3}
   Hiding: 0
-  _hideSoundClip: {fileID: 0}
-  _unhideSoundClip: {fileID: 0}
+  _hideSoundClip: {fileID: 8300000, guid: cf7b2c1337beab043a14650932f74df8, type: 3}
+  _unhideSoundClip: {fileID: 8300000, guid: dd501c1b98a6abd4f81da79473b3ea21, type: 3}
