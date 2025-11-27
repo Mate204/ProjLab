@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Fourth Game\PlayerTeleportControl.cs" />
     <Compile Include="Assets\Scripts\Third Game\CardKeyboardSelector.cs" />
     <Compile Include="Assets\Scripts\ObstacleMover.cs" />
+    <Compile Include="Assets\Scripts\MovingBackgriundFirstGame.cs" />
     <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
     <Compile Include="Assets\Scripts\SecondGame\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Fourth Game\TeleportFourthGame.cs" />
